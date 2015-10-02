@@ -11,4 +11,3 @@ RUN apt-get update \
 
 EXPOSE 11211
 ENTRYPOINT ["/sbin/entrypoint.sh"]
-CMD ["/usr/bin/memcached"]
