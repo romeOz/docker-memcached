@@ -28,7 +28,7 @@ docker run --name memcached -d \
 ```
 
 Command-line arguments
-------------------------------------------------
+-------------------
 
 You can customize the launch command of Memcached server by specifying arguments to memcached on the docker run command. For example the following command sets max memory to use for items in megabytes:
 
