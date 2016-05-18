@@ -2,13 +2,13 @@ Installation
 -------------------
 
  * [Install Docker](https://docs.docker.com/installation/) or [askubuntu](http://askubuntu.com/a/473720)
- * Pull the latest version of the image.
+ * Pull the latest version of image.
  
 ```bash
 docker pull romeoz/docker-memcached
 ```
 
-Alternately you can build the image yourself.
+Alternately you can build image yourself.
 
 ```bash
 git clone https://github.com/romeoz/docker-memcached.git
@@ -19,7 +19,7 @@ docker build -t="$USER/memcached" .
 Quick Start
 -------------------
 
-Run the memcached image:
+Run memcached container:
 
 ```bash
 docker run --name memcached -d \
@@ -46,4 +46,4 @@ Out of the box
 License
 -------------------
 
-Memcached container image is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Memcached docker image is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
