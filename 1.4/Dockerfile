@@ -3,7 +3,7 @@ MAINTAINER romeOz <serggalka@gmail.com>
 
 ENV MEMCACHED_VERSION="1.4.22"
 
-COPY entrypoint.sh /sbin/entrypoint.sh
+COPY ../entrypoint.sh /sbin/entrypoint.sh
 
 RUN \
  BUILD_DEPS='curl gcc libc6-dev make libevent-dev' \
