@@ -41,7 +41,7 @@ docker run --name memcached -d \
 Out of the box
 -------------------
  * Ubuntu 16.04 LTS
- * Memcached
+ * Memcached 1.4 or 1.5
 
 License
 -------------------
