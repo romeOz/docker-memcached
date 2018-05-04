@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 MAINTAINER romeOz <serggalka@gmail.com>
 
-ENV MEMCACHED_VERSION="1.4.23"
+ENV MEMCACHED_VERSION="1.4.25"
 
 COPY entrypoint.sh /sbin/entrypoint.sh
 
